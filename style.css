@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+	width: 100%;
+}
+
+body{
+    background-color: #eeeeee;
+	height: 100%;
+	width: 100%;
+}
+
+.full {
+    width: 100%;
+	background-color: #c9c9cf;
+}
+	
+.column{
+	float: left;
+	margin: 2px;
+	background-color: #c9c9cf;
+}
+
+.progress-bar span{
+    color: #333333;
+}
+
+.splash{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(180, 180, 180, 0.8);
+}
+
+.splash .well{
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	left: 40%;
+	top: 30%;
+	font-size: 16px;
+	text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.arousal{
+    color: rgba(220,110,110,1);
+}
+
+.valence{
+    color: rgba(110,110,220,1);
+}
+
+.emotion{
+	color: rgba(80,180,80,1)
+}
+
+.affect{
+	color: rgba(180,180,80,1);
+}
+
+.loi{
+	color: rgba(80,180,180,1);
+}

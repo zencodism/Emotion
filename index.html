@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice emotion recognition demo - powered by openEAR</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div class="splash">
+	    <div class="well">
+		<p>Please wait, loading openEAR.</p>
+		<p>This takes a few seconds.</p>
+		</div>
+	</div>
+	<div class="full">
+		<p><strong><span class="arousal">Arousal</span> / <span class="valence">Valence</span></strong></p>
+		<canvas id="plot" width="770px" height="290px"></canvas>	
+	</div>
+	
+	<div class="full">
+		<div class="column">
+			<p><strong><span class="emotion">Emotion</span></strong></p>
+			<canvas id="emo_plot" width="300px" height="240px"></canvas>
+		</div>
+		<div class="column">
+			<p><strong><span class="affect">Affect</span></strong></p>
+			<canvas id="aff_plot" width="270px" height="240px"></canvas>
+		</div>
+		<div class="column">
+			<p><strong><span class="loi">Level of interest</span></strong></p>
+			<canvas id="loi_plot" width="200px" height="240px"></canvas>
+		</div>
+	</div>
+</body>
+<script src="jquery-2.1.0.min.js"></script>
+<script src="Chart.min.js"></script>
+<script src="plot.js"></script>
+
+<script src="ex.js"></script> 
+</html>
