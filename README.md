@@ -3,6 +3,8 @@ Emotion
 
 Proof of concept: voice emotion recognition
 
+*For big, uglier and packaged version that should work out of the box in Windows environment, check repository 'Emotion_Pack'. Code here is a bit more cleanly organized but would require some setup and adjustments to run correctly.*
+
 Depends on:
 
   * openEAR library for heavy lifting (so, actual trained classifiers to recognize various emotion spectra in human voice)
